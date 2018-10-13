@@ -13,9 +13,11 @@
 Route::group([
     'middleware' => 'web'
 ], function () {
+
     /**
      * Messages routes
      */
+    Route::get('/chat', 'Crebs86\Acl\Controllers\HomeController@chat')->name('home');
     Route::get('/contacts', 'Crebs86\Acl\Controllers\ContactsController@get');
     Route::get('/conversation/{id}', 'Crebs86\Acl\Controllers\ContactsController@getMessagesFor');
     Route::post('/conversation/send', 'Crebs86\Acl\Controllers\ContactsController@send');
