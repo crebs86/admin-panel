@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Crebs86\Acl\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\User;
-use App\Message;
+use Crebs86\Acl\Models\Message;
 use App\Events\NewMessage;
 
 class ContactsController extends Controller
