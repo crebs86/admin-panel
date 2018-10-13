@@ -26,4 +26,8 @@ class HomeController extends Controller
     {
         return view('crebs::home')->with(['title' => Util::buildBreadCumbs([])]);
     }
+
+    public function chat(){
+        return view('crebs::messenger.chat');
+    }
 }
