@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->boolean('verified')->default(false);
             $table->boolean('active')->default(true);
+            $table->string('profile_image')->default('http://via.placeholder.com/150x150');
             $table->timestamps();
         });
     }
