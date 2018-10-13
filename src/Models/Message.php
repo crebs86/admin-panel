@@ -1,7 +1,8 @@
 <?php
 
-namespace App;
+namespace Crebs86\Acl\Models;
 
+use App\User;
 use Illuminate\Database\Eloquent\Model;
 
 class Message extends Model
