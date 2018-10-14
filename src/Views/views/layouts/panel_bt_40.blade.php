@@ -323,7 +323,7 @@
     </div>
     <!-- Bootstrap core JavaScript-->
     <script src="{{asset('vendor/crebs86/acl-laravel/panel/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('vendor/crebs86/acl-laravel/panel/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></scrip>
+    <script src="{{asset('vendor/crebs86/acl-laravel/panel/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
     <!-- Custom scripts for all pages-->
     <script src="{{asset('vendor/crebs86/acl-laravel/panel/js/sb-admin.min.js')}}"></script>
 </div>
