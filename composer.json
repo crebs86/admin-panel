@@ -1,6 +1,6 @@
 {
   "name": "crebs86/admin-panel",
-  "description": "A simple and complete Control Panel with ACL for Laravel >= 5.5",
+  "description": "A simple and complete Control Panel with ACL for Laravel > 9.x",
   "keywords": [
     "laravel",
     "acl",
@@ -9,7 +9,7 @@
     "roles",
     "permission"
   ],
-  "version": "0.9",
+  "version": "1.0.1",
   "homepage":"https://github.com/crebs86/admin-panel",
   "license": "MIT",
   "authors": [
@@ -19,10 +19,7 @@
     }
   ],
   "require": {
-    "illuminate/console": "~5.5",
-    "illuminate/support": "~5.5",
-    "illuminate/cache": "~5.5",
-    "php": ">=7.0.0"
+    "php": "^8.0.2"
   },
     "autoload": {
     "classmap": [
