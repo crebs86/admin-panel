@@ -86,7 +86,7 @@ if (!function_exists('run')) {
 }
 
 if (!function_exists('configAgenda')) {
-    function configAgenda($fator = false, array $config)
+    function configAgenda(array $config)
     {
         return $fator ? $config[0] : $config[1];
     }
@@ -181,7 +181,7 @@ if (!function_exists('selectProfissionais')) {
     /**
      * @return string
      */
-    function selectProfissionais($class = "", $classe)
+    function selectProfissionais($classe)
     {
         $profisionais = \Illuminate\Support\Facades\DB::table('classes')
             ->select('name', 'users.id')
